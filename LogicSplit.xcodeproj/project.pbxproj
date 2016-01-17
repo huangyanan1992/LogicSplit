@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		663FEDF81C4A37060035D087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEDF71C4A37060035D087 /* main.m */; };
 		663FEDFB1C4A37060035D087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEDFA1C4A37060035D087 /* AppDelegate.m */; };
-		663FEDFE1C4A37060035D087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEDFD1C4A37060035D087 /* ViewController.m */; };
 		663FEE011C4A37060035D087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663FEDFF1C4A37060035D087 /* Main.storyboard */; };
 		663FEE031C4A37060035D087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663FEE021C4A37060035D087 /* Assets.xcassets */; };
 		663FEE061C4A37060035D087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663FEE041C4A37060035D087 /* LaunchScreen.storyboard */; };
+		663FEE231C4A3A050035D087 /* cinema_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 663FEE221C4A3A050035D087 /* cinema_list.json */; };
+		663FEE271C4A3A450035D087 /* JsonToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEE261C4A3A450035D087 /* JsonToModel.m */; };
+		663FEE331C4A3B020035D087 /* Cinema_ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEE311C4A3B020035D087 /* Cinema_ListModel.m */; };
+		663FEE361C4A3B310035D087 /* Cinema_ListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEE351C4A3B310035D087 /* Cinema_ListManager.m */; };
+		663FEE3D1C4A3BA30035D087 /* Cinema_ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEE3B1C4A3BA30035D087 /* Cinema_ListCell.m */; };
+		663FEE3E1C4A3BA30035D087 /* Cinema_ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663FEE3C1C4A3BA30035D087 /* Cinema_ListCell.xib */; };
+		663FEE441C4A505F0035D087 /* Cinema_ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FEE431C4A505F0035D087 /* Cinema_ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,22 @@
 		663FEDF71C4A37060035D087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		663FEDF91C4A37060035D087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		663FEDFA1C4A37060035D087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		663FEDFC1C4A37060035D087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		663FEDFD1C4A37060035D087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		663FEE001C4A37060035D087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663FEE021C4A37060035D087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663FEE051C4A37060035D087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663FEE071C4A37060035D087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663FEE221C4A3A050035D087 /* cinema_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema_list.json; sourceTree = "<group>"; };
+		663FEE251C4A3A450035D087 /* JsonToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToModel.h; sourceTree = "<group>"; };
+		663FEE261C4A3A450035D087 /* JsonToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToModel.m; sourceTree = "<group>"; };
+		663FEE301C4A3B020035D087 /* Cinema_ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema_ListModel.h; sourceTree = "<group>"; };
+		663FEE311C4A3B020035D087 /* Cinema_ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema_ListModel.m; sourceTree = "<group>"; };
+		663FEE341C4A3B310035D087 /* Cinema_ListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema_ListManager.h; sourceTree = "<group>"; };
+		663FEE351C4A3B310035D087 /* Cinema_ListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema_ListManager.m; sourceTree = "<group>"; };
+		663FEE3A1C4A3BA30035D087 /* Cinema_ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema_ListCell.h; sourceTree = "<group>"; };
+		663FEE3B1C4A3BA30035D087 /* Cinema_ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema_ListCell.m; sourceTree = "<group>"; };
+		663FEE3C1C4A3BA30035D087 /* Cinema_ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cinema_ListCell.xib; sourceTree = "<group>"; };
+		663FEE421C4A505F0035D087 /* Cinema_ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema_ListTableViewController.h; sourceTree = "<group>"; };
+		663FEE431C4A505F0035D087 /* Cinema_ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema_ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,12 @@
 		663FEDF51C4A37060035D087 /* LogicSplit */ = {
 			isa = PBXGroup;
 			children = (
+				663FEE211C4A3A050035D087 /* Resource */,
+				663FEE241C4A3A450035D087 /* Util */,
+				663FEE451C4A57ED0035D087 /* Logic */,
+				663FEE2D1C4A3B020035D087 /* UI */,
 				663FEDF91C4A37060035D087 /* AppDelegate.h */,
 				663FEDFA1C4A37060035D087 /* AppDelegate.m */,
-				663FEDFC1C4A37060035D087 /* ViewController.h */,
-				663FEDFD1C4A37060035D087 /* ViewController.m */,
 				663FEDFF1C4A37060035D087 /* Main.storyboard */,
 				663FEE021C4A37060035D087 /* Assets.xcassets */,
 				663FEE041C4A37060035D087 /* LaunchScreen.storyboard */,
@@ -77,6 +95,81 @@
 				663FEDF71C4A37060035D087 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		663FEE211C4A3A050035D087 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE221C4A3A050035D087 /* cinema_list.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		663FEE241C4A3A450035D087 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE251C4A3A450035D087 /* JsonToModel.h */,
+				663FEE261C4A3A450035D087 /* JsonToModel.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		663FEE281C4A3A610035D087 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE341C4A3B310035D087 /* Cinema_ListManager.h */,
+				663FEE351C4A3B310035D087 /* Cinema_ListManager.m */,
+			);
+			name = Manager;
+			path = ../../Manager;
+			sourceTree = "<group>";
+		};
+		663FEE2D1C4A3B020035D087 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE2E1C4A3B020035D087 /* controller */,
+				663FEE321C4A3B020035D087 /* views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		663FEE2E1C4A3B020035D087 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE421C4A505F0035D087 /* Cinema_ListTableViewController.h */,
+				663FEE431C4A505F0035D087 /* Cinema_ListTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		663FEE2F1C4A3B020035D087 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE301C4A3B020035D087 /* Cinema_ListModel.h */,
+				663FEE311C4A3B020035D087 /* Cinema_ListModel.m */,
+			);
+			name = Object;
+			path = ../../UI/Object;
+			sourceTree = "<group>";
+		};
+		663FEE321C4A3B020035D087 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE3A1C4A3BA30035D087 /* Cinema_ListCell.h */,
+				663FEE3B1C4A3BA30035D087 /* Cinema_ListCell.m */,
+				663FEE3C1C4A3BA30035D087 /* Cinema_ListCell.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		663FEE451C4A57ED0035D087 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				663FEE2F1C4A3B020035D087 /* Object */,
+				663FEE281C4A3A610035D087 /* Manager */,
+			);
+			name = Logic;
+			path = Util/Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				663FEE061C4A37060035D087 /* LaunchScreen.storyboard in Resources */,
+				663FEE3E1C4A3BA30035D087 /* Cinema_ListCell.xib in Resources */,
+				663FEE231C4A3A050035D087 /* cinema_list.json in Resources */,
 				663FEE031C4A37060035D087 /* Assets.xcassets in Resources */,
 				663FEE011C4A37060035D087 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663FEDFE1C4A37060035D087 /* ViewController.m in Sources */,
+				663FEE3D1C4A3BA30035D087 /* Cinema_ListCell.m in Sources */,
+				663FEE361C4A3B310035D087 /* Cinema_ListManager.m in Sources */,
 				663FEDFB1C4A37060035D087 /* AppDelegate.m in Sources */,
+				663FEE441C4A505F0035D087 /* Cinema_ListTableViewController.m in Sources */,
+				663FEE271C4A3A450035D087 /* JsonToModel.m in Sources */,
+				663FEE331C4A3B020035D087 /* Cinema_ListModel.m in Sources */,
 				663FEDF81C4A37060035D087 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
